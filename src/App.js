@@ -24,8 +24,8 @@ function App() {
 
 
   return (
-    <div>
-      <ul>
+    <div >
+      <ul className='product'>
         {productsData && productsData.map((item) => (
           <li key={item.id}>
             <h1>{item.name}</h1>
